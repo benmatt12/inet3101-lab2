@@ -11,4 +11,4 @@
 #### deleteLast() - Deletes the most recently added record in the database.
 #### sizeOfDatabase() - Prints the size of the database in bytes based on the number of records.
 
-#### Required files - .h header, .c c code, .h stdio, .h stdlib, .h string
+#### All records are stored in dynamic memory using malloc to allocate memory for records and realloc to resize the memory when a record is added or removed. The free function is used right before exiting the program to release memory.
